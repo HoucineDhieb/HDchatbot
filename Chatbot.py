@@ -1,4 +1,9 @@
 import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt_tab')
 from nltk import download as nltk_download
 NLTK_RESOURCES_INITIALIZED = False
 def initialize_nltk_resources():
